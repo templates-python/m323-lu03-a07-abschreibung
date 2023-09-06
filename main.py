@@ -14,7 +14,17 @@ def calculate_depreciation(initial_value, depreciation_rate, years):
     ValueError: Wird geworfen, wenn der Abschreibungssatz nicht zwischen 0 und 1 liegt.
     ValueError: Wird geworfen, wenn die Anzahl der Jahre negativ ist.
     """
-    pass
+
+    if depreciation_rate < 0 or depreciation_rate > 1:
+        raise ValueError("Der Abschreibungssatz muss zwischen 0 und 1 liegen.")
+
+    if years < 0:
+        raise ValueError("Die Anzahl der Jahre kann nicht negativ sein.")
+
+    if years == 0:
+        return initial_value
+
+    return calculate_depreciation(initial_value * (1 - depreciation_rate), depreciation_rate, years - 1)
 
 
 if __name__ == '__main__':
