@@ -1,0 +1,50 @@
+[
+  {
+    "name": "test_calculate_depreciation_normal_case",
+    "function": "test_calculate_depreciation_normal_case",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_depreciation_zero_years",
+    "function": "test_calculate_depreciation_zero_years",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_depreciation_zero_depreciation",
+    "function": "test_calculate_depreciation_zero_depreciation",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_depreciation_one_depreciation",
+    "function": "test_calculate_depreciation_one_depreciation",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_depreciation_negative_initial_value",
+    "function": "test_calculate_depreciation_negative_initial_value",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_depreciation_invalid_depreciation_rate_low",
+    "function": "test_calculate_depreciation_invalid_depreciation_rate_low",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_depreciation_invalid_depreciation_rate_high",
+    "function": "test_calculate_depreciation_invalid_depreciation_rate_high",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_depreciation_negative_years",
+    "function": "test_calculate_depreciation_negative_years",
+    "timeout": 10,
+    "points": 1
+  }
+]
