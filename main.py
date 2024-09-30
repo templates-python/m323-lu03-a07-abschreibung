@@ -18,4 +18,4 @@ def calculate_depreciation(initial_value, depreciation_rate, years):
 
 
 if __name__ == '__main__':
-    print(calculate_depreciation(20000,0.1,5))
+    print(calculate_depreciation(20000, 0.1, 5))
