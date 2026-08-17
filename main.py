@@ -1,3 +1,8 @@
+"""Abschreibung von Anlagen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/abschreibung
+"""
+
 def calculate_depreciation(initial_value, depreciation_rate, years):
     """
     Berechnet den Restwert einer Anlage nach einer bestimmten Anzahl von Jahren unter Berücksichtigung der jährlichen Abschreibung.
