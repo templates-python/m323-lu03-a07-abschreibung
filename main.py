@@ -5,7 +5,8 @@ Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu03/aufgaben/abs
 
 def calculate_depreciation(initial_value, depreciation_rate, years):
     """
-    Berechnet den Restwert einer Anlage nach einer bestimmten Anzahl von Jahren unter Berücksichtigung der jährlichen Abschreibung.
+    Berechnet den Restwert einer Anlage nach einer bestimmten Anzahl von Jahren unter Berücksichtigung der jährlichen
+    Abschreibung.
 
     Args:
     initial_value (float): Der Anfangswert der Anlage.
